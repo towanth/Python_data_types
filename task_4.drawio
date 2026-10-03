@@ -1,0 +1,116 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="T-xa0TyTeyPuqiPcETbG">
+    <mxGraphModel dx="551" dy="1737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u4C3h2wZgGHEoRECe7-5-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rotation=0;" value="Начало" vertex="1">
+          <mxGeometry height="40" width="120" x="160" as="geometry" />
+        </mxCell>
+        <mxCell id="u4C3h2wZgGHEoRECe7-5-2" edge="1" parent="1" source="u4C3h2wZgGHEoRECe7-5-3" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="u4C3h2wZgGHEoRECe7-5-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="60" />
+            </Array>
+            <mxPoint x="220" y="80" as="sourcePoint" />
+            <mxPoint x="290" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4C3h2wZgGHEoRECe7-5-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;rotation=0;" value="Создание списка кортежей items" vertex="1">
+          <mxGeometry height="80" width="120" x="160" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u4C3h2wZgGHEoRECe7-5-4" edge="1" parent="1" source="u4C3h2wZgGHEoRECe7-5-5" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="u4C3h2wZgGHEoRECe7-5-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="200" as="sourcePoint" />
+            <mxPoint x="290" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4C3h2wZgGHEoRECe7-5-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;rotation=0;" value="Создание пустого списка new_dict" vertex="1">
+          <mxGeometry height="80" width="120" x="160" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="u4C3h2wZgGHEoRECe7-5-6" edge="1" parent="1" source="u4C3h2wZgGHEoRECe7-5-7" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="u4C3h2wZgGHEoRECe7-5-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="320" as="sourcePoint" />
+            <mxPoint x="290" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4C3h2wZgGHEoRECe7-5-7" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;rotation=0;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="80" width="120" x="160" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="u4C3h2wZgGHEoRECe7-5-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Проход по элементам items" vertex="1">
+          <mxGeometry height="30" width="60" x="190" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="u4C3h2wZgGHEoRECe7-5-9" edge="1" parent="1" source="u4C3h2wZgGHEoRECe7-5-10" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="u4C3h2wZgGHEoRECe7-5-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="440" as="sourcePoint" />
+            <mxPoint x="290" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4C3h2wZgGHEoRECe7-5-10" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rotation=0;" value="Второй элемент кортежа не находится в ключах словаря&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="120" x="160" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="u4C3h2wZgGHEoRECe7-5-11" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="u4C3h2wZgGHEoRECe7-5-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="560" as="sourcePoint" />
+            <mxPoint x="220" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4C3h2wZgGHEoRECe7-5-12" edge="1" parent="1" source="u4C3h2wZgGHEoRECe7-5-15" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;innerLoopWaypoints=1;" target="u4C3h2wZgGHEoRECe7-5-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="720" />
+              <mxPoint x="160" y="720" />
+              <mxPoint x="160" y="560" />
+              <mxPoint x="280" y="560" />
+            </Array>
+            <mxPoint x="160" y="600" as="sourcePoint" />
+            <mxPoint x="280" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4C3h2wZgGHEoRECe7-5-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="True" vertex="1">
+          <mxGeometry height="30" width="60" x="220" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="u4C3h2wZgGHEoRECe7-5-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="False" vertex="1">
+          <mxGeometry height="30" width="60" x="160" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="u4C3h2wZgGHEoRECe7-5-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;rotation=0;" value="Создание пустого списка по ключу в словаре" vertex="1">
+          <mxGeometry height="80" width="120" x="220" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="u4C3h2wZgGHEoRECe7-5-16" edge="1" parent="1" source="u4C3h2wZgGHEoRECe7-5-17" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="220" y="760" as="sourcePoint" />
+            <mxPoint x="220" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4C3h2wZgGHEoRECe7-5-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;rotation=0;" value="Добавление первого элемента кортежа в список по ключу в словаре" vertex="1">
+          <mxGeometry height="80" width="120" x="160" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="u4C3h2wZgGHEoRECe7-5-19" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;rotation=0;" value="Вывод new_dict" vertex="1">
+          <mxGeometry height="80" width="120" x="160" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="u4C3h2wZgGHEoRECe7-5-20" edge="1" parent="1" source="u4C3h2wZgGHEoRECe7-5-17" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="u4C3h2wZgGHEoRECe7-5-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="880" />
+              <mxPoint x="80" y="880" />
+              <mxPoint x="80" y="360" />
+            </Array>
+            <mxPoint x="220" y="840" as="sourcePoint" />
+            <mxPoint x="160" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u4C3h2wZgGHEoRECe7-5-21" edge="1" parent="1" source="u4C3h2wZgGHEoRECe7-5-19" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="920" />
+              <mxPoint x="360" y="920" />
+              <mxPoint x="360" y="360" />
+            </Array>
+            <mxPoint x="220" y="960" as="sourcePoint" />
+            <mxPoint x="280" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

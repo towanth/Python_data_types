@@ -1,0 +1,113 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="bIwmmvFgxaMi22JqO_9V">
+    <mxGraphModel dx="459" dy="1642" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X_EvJPNdFIJyH-fr9aRB-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rotation=0;" value="Начало" vertex="1">
+          <mxGeometry height="40" width="120" x="240" as="geometry" />
+        </mxCell>
+        <mxCell id="X_EvJPNdFIJyH-fr9aRB-2" edge="1" parent="1" source="X_EvJPNdFIJyH-fr9aRB-3" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="X_EvJPNdFIJyH-fr9aRB-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300" y="80" as="sourcePoint" />
+            <mxPoint x="320" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X_EvJPNdFIJyH-fr9aRB-3" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;rotation=0;" value="Ввод текста text" vertex="1">
+          <mxGeometry height="80" width="120" x="240" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X_EvJPNdFIJyH-fr9aRB-4" edge="1" parent="1" source="X_EvJPNdFIJyH-fr9aRB-5" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="X_EvJPNdFIJyH-fr9aRB-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300" y="200" as="sourcePoint" />
+            <mxPoint x="320" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X_EvJPNdFIJyH-fr9aRB-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;rotation=0;" value="Изменение регистра всех букв в text на нижний" vertex="1">
+          <mxGeometry height="80" width="120" x="240" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="X_EvJPNdFIJyH-fr9aRB-6" edge="1" parent="1" source="X_EvJPNdFIJyH-fr9aRB-7" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="X_EvJPNdFIJyH-fr9aRB-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300" y="320" as="sourcePoint" />
+            <mxPoint x="320" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X_EvJPNdFIJyH-fr9aRB-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;rotation=0;" value="&lt;div&gt;Cоздание списка words всех слов из text&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="240" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="X_EvJPNdFIJyH-fr9aRB-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;rotation=0;" value="Создание пустого словаря words_dict" vertex="1">
+          <mxGeometry height="80" width="120" x="240" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="X_EvJPNdFIJyH-fr9aRB-9" edge="1" parent="1" source="X_EvJPNdFIJyH-fr9aRB-8" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="X_EvJPNdFIJyH-fr9aRB-7" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="270" y="330" as="sourcePoint" />
+            <mxPoint x="320" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X_EvJPNdFIJyH-fr9aRB-10" edge="1" parent="1" source="X_EvJPNdFIJyH-fr9aRB-12" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="X_EvJPNdFIJyH-fr9aRB-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300" y="560" as="sourcePoint" />
+            <mxPoint x="320" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X_EvJPNdFIJyH-fr9aRB-12" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.27;rotation=0;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="80" width="120" x="240" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="X_EvJPNdFIJyH-fr9aRB-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Проход по элементам words" vertex="1">
+          <mxGeometry height="30" width="60" x="270" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="X_EvJPNdFIJyH-fr9aRB-15" edge="1" parent="1" source="X_EvJPNdFIJyH-fr9aRB-21" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="X_EvJPNdFIJyH-fr9aRB-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="840" />
+              <mxPoint x="440" y="840" />
+              <mxPoint x="440" y="600" />
+            </Array>
+            <mxPoint x="300" y="880" as="sourcePoint" />
+            <mxPoint x="440" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X_EvJPNdFIJyH-fr9aRB-16" edge="1" parent="1" source="X_EvJPNdFIJyH-fr9aRB-17" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="X_EvJPNdFIJyH-fr9aRB-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300" y="680" as="sourcePoint" />
+            <mxPoint x="320" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X_EvJPNdFIJyH-fr9aRB-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;rotation=0;" value="Добавление в words_dict значения, сколько раз слово встречается в тексте, по ключу" vertex="1">
+          <mxGeometry height="80" width="120" x="240" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="X_EvJPNdFIJyH-fr9aRB-20" edge="1" parent="1" source="X_EvJPNdFIJyH-fr9aRB-17" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="X_EvJPNdFIJyH-fr9aRB-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="800" />
+              <mxPoint x="160" y="800" />
+              <mxPoint x="160" y="600" />
+            </Array>
+            <mxPoint x="300" y="740" as="sourcePoint" />
+            <mxPoint x="240" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X_EvJPNdFIJyH-fr9aRB-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;rotation=0;" value="&lt;font face=&quot;Helvetica&quot;&gt;Создание отсортированного списка из кортежей, по убыванию второго элемента каждого кортежа&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="240" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="X_EvJPNdFIJyH-fr9aRB-22" edge="1" parent="1" source="X_EvJPNdFIJyH-fr9aRB-23" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="X_EvJPNdFIJyH-fr9aRB-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="430" y="990" as="sourcePoint" />
+            <mxPoint x="320" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X_EvJPNdFIJyH-fr9aRB-23" parent="1" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;rotation=0;" value="Вывод первых 5 слов" vertex="1">
+          <mxGeometry height="80" width="120" x="240" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="X_EvJPNdFIJyH-fr9aRB-24" edge="1" parent="1" source="X_EvJPNdFIJyH-fr9aRB-25" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" target="X_EvJPNdFIJyH-fr9aRB-23" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300" y="1120" as="sourcePoint" />
+            <mxPoint x="320" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X_EvJPNdFIJyH-fr9aRB-25" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;rotation=0;" value="Конец" vertex="1">
+          <mxGeometry height="40" width="120" x="240" y="1120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
